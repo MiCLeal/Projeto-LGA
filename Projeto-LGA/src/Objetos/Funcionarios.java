@@ -14,13 +14,14 @@ package Objetos;
  */
 public class Funcionarios {
     
-    int id;
-    String nome;
-    String funcao;
-    int idade;
-    int nascimento;
-    int rg;
-    int cpf;
+    // Declaração de variáveis
+    private int id;
+    private String nome;
+    private String funcao;
+    private int idade;
+    private int nascimento;
+    private int rg;
+    private int cpf;
     
     public Funcionarios(){
         
