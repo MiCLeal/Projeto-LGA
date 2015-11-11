@@ -22,6 +22,7 @@ public class Funcionarios {
     private int nascimento;
     private int rg;
     private int cpf;
+    private double salario;
     
     public Funcionarios(){
         
@@ -96,4 +97,15 @@ public class Funcionarios {
     public void setCPF(int c){
         this.cpf = c;
     }
+    
+    // Método para entregar Salário
+    public double getSalario(){
+        return salario;
+    }
+    
+    // Método para receber Salário
+    public void setSalario(double s){
+        this.salario = s;
+    }
+    
 }// Fim da Classe

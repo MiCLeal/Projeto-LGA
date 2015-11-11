@@ -26,5 +26,35 @@ public class Servico {
         
     }
     
+    public int getID(){
+        return id;
+    }
     
+    public void setID(int id){
+        this.id = id;
+    }
+    
+    public int getCodigo(){
+        return codigo;
+    }
+    
+    public void setCodigo(int c){
+        this.codigo = c;
+    }
+    
+    public String getNome(){
+        return nome;
+    }
+    
+    public void setNome(String n){
+        this.nome = n;
+    }
+    
+    public Date getData(){
+        return data;
+    }
+    
+    public void setData(Date d){
+        this.data = d;
+    }
 }
