@@ -23,6 +23,10 @@ public class Funcionarios {
     private int rg;
     private int cpf;
     private double salario;
+    private String nacionalidade;
+    private String estadoCivil;
+    private String localNascimento;
+    private String endereco;
     
     public Funcionarios(){
         
@@ -106,6 +110,46 @@ public class Funcionarios {
     // Método para receber Salário
     public void setSalario(double s){
         this.salario = s;
+    }
+    
+    // Método para entregar Nacionalidade
+    public String getNacionalidade(){
+        return nacionalidade;
+    }
+    
+    // Método para receber Nacionalidade
+    public void setNacionalidade(String n){
+        this.nacionalidade = n;
+    }
+    
+    // Método para entregar Estado Civil
+    public String getEstadoCivil(){
+        return estadoCivil;
+    }
+    
+    // Método para receber Estado Civil
+    public void setEstadoCivil(String e){
+        this.estadoCivil = e;
+    }
+    
+    // Método para entregar Local de Nascimento
+    public String getLocalNascimento(){
+        return localNascimento;
+    }
+    
+    // Método para receber Local de Nascimento
+    public void setLocalNascimento(String ln){
+        this.localNascimento = ln;
+    }
+    
+    // Método para entregar Endereço
+    public String getEndereco(){
+        return endereco;
+    }
+    
+    // Método para receber Endereço
+    public void setEndereco(String e){
+        this.endereco = e;
     }
     
 }// Fim da Classe
